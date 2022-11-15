@@ -54,7 +54,7 @@
 
     <div>
         <label>Salary</label>
-        <asp:DropDownList ID="DropDownList1" runat="server" Width="358px" Height="25px">
+        <asp:DropDownList ID="DropDownList1" runat="server" Width="564px" Height="30px" ToolTip="Please Select Your Current Salary">
             <asp:ListItem Text="Select Salary" Value="0"></asp:ListItem>
                 <asp:ListItem Text="₹ 10,000" Value="10000"></asp:ListItem>
                 <asp:ListItem Text="₹ 15,000" Value="15000"></asp:ListItem>
@@ -83,7 +83,7 @@
     <br />
     <div>
         <label>Notes</label>
-        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TextBox2" runat="server" TextMode="MultiLine" Width="490px" Height="70px" ToolTip="Please Tell About Yourself"></asp:TextBox>
         
     </div>
     <br />
