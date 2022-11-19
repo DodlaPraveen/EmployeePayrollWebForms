@@ -1,4 +1,9 @@
-﻿.sec1 {
+﻿html {
+    font-size: 14px;
+    font-family: "Open Sans",sans-serif;
+    background-color: #00539f;
+}
+.sec1 {
     margin-top: 25px;
     margin-left: 347px;
     height: 420px;
@@ -6,6 +11,7 @@
     padding-left: 103px;
     padding-top: 20px;
     width: 500px;
+
 }
 
 .sec2 {

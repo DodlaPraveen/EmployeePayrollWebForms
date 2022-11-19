@@ -3,9 +3,9 @@
     <link href="../StyleSheets/Signup.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-   <div class="sec1">
+    <div class="sec1">
     <div class="sec2">
-        <h5>Create an account</h5>
+        <h2>Create an account</h2>
     </div>
     <div class="sec3">
        
@@ -27,7 +27,7 @@
     </div>
     <div>
         <asp:TextBox ID="TextBox4" type="password" placeholder="Enter Password" name="Password" runat="server" required="required" ToolTip="Please Enter Strong Password" Height="25px" style="margin-top: 11px" Width="139px"></asp:TextBox>
-        <asp:TextBox ID="TextBox5" type="password" placeholder="Confirm Password" name="Password" runat="server" required="required" ToolTip="Please Re-type The Password To Confirm" Height="23px" Width="138px"></asp:TextBox>
+        <asp:TextBox ID="TextBox5" type="password" placeholder="Confirm Password" name="Password" runat="server" required="required" ToolTip="Please Re-type The Password To Confirm" Height="25px" Width="139px" OnTextChanged="TextBox5_TextChanged"></asp:TextBox>
         <asp:RegularExpressionValidator ID="RegularExpressionValidator4" runat="server" ErrorMessage="Enter Strong Password" ControlToValidate="TextBox4" ForeColor="Red" ValidationExpression="(?=.*[A-Z]).{8,}"></asp:RegularExpressionValidator>
        <asp:RegularExpressionValidator ID="RegularExpressionValidator5" runat="server" ErrorMessage="Enter Strong Password" ControlToValidate="TextBox5" ForeColor="Red" ValidationExpression="(?=.*[A-Z]).{8,}"></asp:RegularExpressionValidator>
         <asp:CompareValidator ID="CompareValidator1" runat="server" ErrorMessage="Passwords should be Same" ControlToCompare="TextBox4" ControlToValidate="TextBox5" ForeColor="Red"></asp:CompareValidator>
@@ -44,6 +44,7 @@
        <asp:Label ID="Label1" class="labelError" ForeColor="Red" runat="server"></asp:Label>
     </div>
     </div>
+    
     
 
 </asp:Content>

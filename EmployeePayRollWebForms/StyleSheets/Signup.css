@@ -1,11 +1,17 @@
-﻿.sec1 {
-    margin-top: 5px;
-    margin-left: 300px;
-    height: 500px;
+﻿html {
+    font-size: 14px;
+    font-family: "Open Sans",sans-serif;
+    background-color: #00539f;
+}
+.sec1 {
+    margin-top: 33px;
+    margin-left: 462px;
+    height: 386px;
     background-color: #FFFFFF;
     padding-left: 105px;
     padding-top: 20px;
-    width: 600px;
+    width: 483px;
+    
 }
 
 .sec2 {

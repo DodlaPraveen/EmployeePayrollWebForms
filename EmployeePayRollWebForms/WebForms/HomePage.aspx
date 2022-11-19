@@ -34,7 +34,7 @@
                 <asp:BoundField DataField="START_DATE" HeaderText="START_DATE" SortExpression="START_DATE" />
                 <asp:BoundField DataField="NOTES" HeaderText="NOTES" SortExpression="NOTES" />
 
-                <asp:CommandField ButtonType="Image" CancelImageUrl="~/Images/addnew.png" DeleteImageUrl="~/Images/delete-button-png-28580 (1) (1).png" EditImageUrl="~/Images/edit-icon-png-3607 (1) (1) (1).png" HeaderText="ACTIONS" ShowDeleteButton="True" ShowEditButton="True" UpdateImageUrl="~/Images/update-black-18dp (1).png" />
+                <asp:CommandField ButtonType="Image" CancelImageUrl="" DeleteImageUrl="~/Images/delete-button-png-28580 (1) (1).png" EditImageUrl="~/Images/edit-icon-png-3607 (1) (1) (1).png" HeaderText="ACTIONS" ShowDeleteButton="True" ShowEditButton="True" UpdateImageUrl="~/Images/update-black-18dp (1).png" />
 
 
             </Columns>

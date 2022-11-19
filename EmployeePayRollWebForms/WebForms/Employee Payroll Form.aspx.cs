@@ -114,6 +114,10 @@ namespace EmployeePayRollWebForms.WebForms
             FillDays();
         }
 
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Employee Payroll Form.aspx");
+        }
     }
 
 }

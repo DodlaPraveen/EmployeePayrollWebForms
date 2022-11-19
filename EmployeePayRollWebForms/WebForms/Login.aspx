@@ -30,10 +30,12 @@
     <div>
         <asp:Button ID="Button2" runat="server" class="btn signup" OnClick="Button2_Click" Text="Create Account" Width="111px" />
       
-        <asp:Button ID="Button1" runat="server" class="btn btn-primary" Text="Login" Width="123px" OnClick="Button1_Click" />
+        <asp:Button ID="Button1" runat="server" class="btn btn-primary" Text="SigIn" Width="123px" OnClick="Button1_Click" />
     </div>
     <div>
         <asp:Label ID="Label1" class="labelError" ForeColor="Red" runat="server"></asp:Label>
     </div>
+       
     </div>
+   
 </asp:Content>
